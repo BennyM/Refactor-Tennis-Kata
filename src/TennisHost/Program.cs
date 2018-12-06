@@ -15,8 +15,7 @@ namespace TennisHost
             string score;
             while (!(score = game.GetScore()).Contains("Win"))
             {
-                int v = r.Next(0, 101);
-                if (v % 2 == 0)
+                if (r.Next(0, 2) == 1)
                 {
                     Console.WriteLine("Point for player 1");
                     game.WonPoint(player1);
