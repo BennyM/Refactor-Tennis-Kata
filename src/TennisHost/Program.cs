@@ -8,8 +8,8 @@ namespace TennisHost
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Belgian Open");
-            string player1 = "Rafael Nadal";
-            string player2 = "Roger Federer";
+            string player1 = "player1";
+            string player2 = "player2";
             Game game = new Game(player1, player2);
             Random r = new Random();
             string score;
