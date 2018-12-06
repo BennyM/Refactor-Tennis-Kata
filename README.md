@@ -5,3 +5,5 @@ Based on [Emily Bache's](https://github.com/emilybache/Tennis-Refactoring-Kata) 
 ## Outline
 We want to improve the existing code but have no safety net. The first step will be to introduce a golden master so we can start refactoring the code, adding tests along the way.
 
+When you are up to add, add the last missing feature: Support player names instead of "player1" and "player2".
+
